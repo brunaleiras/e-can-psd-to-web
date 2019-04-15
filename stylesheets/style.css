@@ -41,10 +41,6 @@ p {
   margin-bottom: 1.5em;
 }
 
-/*********************************************************************
-*  =Layout
-*********************************************************************/
-
 #container {
   width: 1024px;
   margin: 0 auto;
@@ -93,36 +89,61 @@ p {
 }
 
 .button-vtex-main {
-    margin-top: 100px;
-    margin-left: 60px;
-    width:160px;
+  margin-top: 100px;
+  margin-left: 60px;
+  width:160px;
 	border-radius: 18px;
 }
 
-.item{
+.item-carousel{
 	font-family: 'Fabriga-Regular';
 	font-size:14px;
-	width:140px;
-	height:220px;
-	border:1px solid #FFFFFF;
+	width:180px;
+	height:180px;
+	border:1px solid #000000;
 	background: #FFFFFF;
-	margin-left:5px;
+	margin:20%;
+  background-size: 100% 100%;
+}
+
+.item-carousel:nth-child(1) {
+  background-image: url("../images/carousel01.png");
+}
+
+.item-carousel:nth-child(2) {
+  background-image: url("../images/carousel02.png");
+}
+
+.item-carousel:nth-child(3) {
+  background-image: url("../images/carousel03.png");
+}
+
+.item-carousel:nth-child(4) {
+  background-image: url("../images/carousel04.png");
+}
+
+.item-carousel:nth-child(5) {
+  background-image: url("../images/carousel05.png");
+}
+
+.item-carousel:nth-child(6) {
+  background-image: url("../images/carousel06.png");
 }
 .owl-dot{
-	border:1px solid #cccccc !important;
+	border:1px solid white !important;
 	width:10px;
 	height:10px;
-    margin: 5px 7px;
-    background: #D6D6D6;
-    -webkit-backface-visibility: visible;
-    transition: opacity .2s ease;
-    border-radius: 30px;
+  margin: 5px 7px;
+  background: #D6D6D6;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 30px;
+  background-color: #FD1262 !important;
 }
 
 .owl-dots{
 	text-align:center !important;
 }
-
 
 .vtex-content{
 	background: #F0F0F0;
@@ -140,5 +161,3 @@ p {
 	text-align:center;
 	margin-bottom: 1cm;
 }
-
-
