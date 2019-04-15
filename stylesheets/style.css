@@ -26,8 +26,8 @@ footer, header, hgroup, menu, nav, section { display: block; }
 
 body {
   color: #333;
-  padding-left: 20px;
-  padding-right: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -44,6 +44,8 @@ p {
 #container {
   width: 1024px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /*
 #container section section {
@@ -81,18 +83,19 @@ p {
   background-color: #FD1262;
   border: none;
   color: white;
-  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  
+  border-radius: 18px;
 }
 
 .button-vtex-main {
   margin-top: 100px;
   margin-left: 60px;
   width:160px;
-	border-radius: 18px;
+	padding: 10px;
+  font-size: 14px;
 }
 
 .item-carousel{
@@ -100,7 +103,7 @@ p {
 	font-size:14px;
 	width:180px;
 	height:180px;
-	border:1px solid #000000;
+	border:1px solid white;
 	background: #FFFFFF;
 	margin:20%;
   background-size: 100% 100%;
@@ -147,17 +150,111 @@ p {
 
 .vtex-content{
 	background: #F0F0F0;
+  text-align:center;
 }
 
 .vtex-content p {
-  padding: 15px;
-  background: #ececec;
-  position: relative;
+  font-family: 'Fabriga-Regular';
+  /*background: #ececec;*/
+  padding: 0 10% 0 10%;
 }
 
-.vtex-content h3 {
+.vtex-content h1 {
 	font-family: 'Fabriga-Black';
 	font-size:28px;
-	text-align:center;
 	margin-bottom: 1cm;
+  padding: 2%;
+}
+
+.link-saiba-mais{
+  color: #FD1262;
+
+}
+
+.link-saiba-mais, .item-carousel, .owl-dot, .button-vtex-main{
+  cursor:pointer;
+}
+
+.vtex-newsletter{
+  background: #FFFFFF;
+  text-align:center;
+}
+
+.vtex-newsletter h1{
+  font-family: 'Fabriga-Black';
+  font-size:40px;
+  margin: 0.6cm;
+}
+
+.vtex-newsletter p{
+  font-family: 'Fabriga-Regular';
+  font-size:12px;
+}
+
+.vtex-about{
+  width:80%;
+  background: #142032;
+  height: 200px;
+  padding: 0 15% 0 15%;
+  margin-top:2%;
+}
+
+.vtex-about-item{
+  width:200px;
+  height:200px;
+  float:left;
+  padding:10px;
+}
+
+.vtex-about-item h3{
+  font-family: 'Fabriga-Regular';
+  font-size:14px;
+  font-weight: normal;
+  color: #FD1262;
+  text-transform: uppercase;
+  text-align:left;
+}
+
+.button-vtex-newsletter{
+  width:100px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.input-vtex-newsletter {
+  border-radius: 30px;
+  border: 1px solid #cccccc;
+  padding: 8px; 
+  width: 200px;
+  height: 15px;   
+
+}
+
+.vtex-about-item ul {
+  list-style-type:none;
+}
+
+.vtex-about-item ul li{
+  font-family: 'Fabriga-Regular';
+  color:white;
+  font-size:12px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.social{
+  width:40px;
+  height:40px;
+}
+
+.vtex-footer{
+  font-family: 'Fabriga-Regular';
+  font-size:12px;
+  width:80%;
+  background: #FFFFFF;
+  height: 60px;
+  display:table;
+  padding: 0 15% 0 15%;
+  margin-top:2%;
+  color:#666666;
 }
