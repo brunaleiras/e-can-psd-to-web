@@ -7,7 +7,7 @@ Layout responsivo usando HTML5, CSS, JQuery e plugin OwlCarrousel2
 
 * Possui um navagedor Opera, IE, Chome ou Firefox
 
-## Iniciando o projeto backend
+## Iniciando o projeto frontend
 
 Para ver o template clonar esse repositório é clicar duas vezes no arquivo:
 ```
